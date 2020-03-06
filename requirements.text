@@ -1,0 +1,1 @@
+# Du solltest deine Abhängigkeiten mit im Repo ablegen. Erstellen kannst du die mit `pip freeze > requirements.txt`
