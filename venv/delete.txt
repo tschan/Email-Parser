@@ -1,0 +1,3 @@
+Ich würde das Virtualenv nicht mit im Repo verwalten. Spätestens wenn du zwischen Windows und Linux wechselst, wird das nicht mehr funktionieren.
+
+Stattdessen würde ich in der Readme beschreiben, was zum Einrichten einer Umgebung, in der das Script ausgeführt werden kann, nötig ist.
