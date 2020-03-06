@@ -9,6 +9,10 @@ from openpyxl.styles import Font
 import tkinter
 from tkinter import messagebox, filedialog
 
+# allgemein könnte man die verschiedenen Funktionalitäten weiter kapseln und Klassen oder
+# mindestens Funktionen drum rum bauen. Z.B. eine Klasse, die für das Schreiben der Excel
+# Ausgabedatei zuständig ist usw.
+
 # du könntest diese ganzen Parameter auch als Kommandozeilen Parameter übergebbar machen.
 # schau dir dazu mal argparse an: https://docs.python.org/3/library/argparse.html
 today = datetime.now()
