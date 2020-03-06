@@ -6,6 +6,7 @@ def getTablesFromHTML(file, encoding):
 
     # parse string for tables
     soup = BeautifulSoup(xhtml, 'html.parser')
+    # Sehr schöne List Comprehensions, sehr pythonic! :)
     tables = [
         [
             [td.get_text(strip=True) for td in tr.find_all('td')]
